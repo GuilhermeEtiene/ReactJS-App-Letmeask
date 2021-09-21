@@ -1,0 +1,39 @@
+.room-code{
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #FFF;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    transition: filter 0.2s;
+
+    &:hover{
+        filter:brightness(0.9);
+    }
+
+
+    div{
+        background: #835afd;
+        padding: 0 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         height: 40px;
+    }
+
+    span{
+        display: block;
+        align-self: center;
+        flex: 1;
+        
+        width: 230px;
+        @media screen and (max-width: 400px) {
+            width: 220px;                   
+            
+          }
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
