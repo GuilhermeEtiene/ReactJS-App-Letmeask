@@ -11,7 +11,7 @@ Aplicação construída utilizando REACT JS e Typescript, a aplicação consiste
 
 Caso queira testar o projeto,deixarei o link:
 
-https://letmeask-app-teste.netlify.app/
+https://letmeasku.netlify.app/
 
 ## Tecnologias e libs utilizadas:
 
